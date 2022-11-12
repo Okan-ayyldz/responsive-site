@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+.responsive {
+	width:50%;
+	height:auto;
+  border-radius:10px;
+  margin-left:20px;
+}
+#more {display: none;}
+#myBtn{
+	margin-top:60px;
+	background-color:#039;
+	color:#FFF;
+}
+.metin1{
+	font-size:40px;
+	padding-left:100px;
+	margin-top:30px;
+}
+.metin2{
+	font-size:20px;
+	padding-left:100px;
+}
+.res{
+	width:85%;
+	height:auto;
+	display:block;
+	margin:auto;
+}
+
+.res4{
+	width:85%;
+	height:auto;
+	display:block;
+	margin:auto;
+	}
+.güneş{
+	margin:auto;
+	display:block;
+	margin-top:150px;
+}
+
+.alt{
+	font-size:20px;
+	color:#333;
+	text-align:center;
+	margin-top:40px;
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 768px) {
+	[class*="responsive"] {
+		width:200px;
+		height:auto;
+}
+}
+@media only screen and (max-width: 768px) {
+	[class*="navbar-brand"] {
+		width:70%;
+		height:auto;
+
+}
+}
+@media only screen and (max-width: 768px) {
+	[class*="nav-item"] {
+		border:solid #666 2px;
+		text-align:center;
+}
+}
+
+@media only screen and (max-width: 768px) {
+	[class*="metin1"] {
+		font-size:26px;
+		
+}
+}
+@media only screen and (max-width: 768px) {
+	[class*="metin2"] {
+		font-size:20px;
+}
+}
+@media only screen and (max-width: 768px) {
+	[class*="res"] {
+		width:90%;
+		height:auto;
+		margin-top:20px;
+
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+	[class*="güneş"] {
+		width:20%;
+		height:auto;
+		margin:auto;
+		margin-top:20px;
+}
+}
+@media only screen and (max-width: 768px) {
+	[class*="alt"] {
+		font-size:14px;
+		text-align:center;
+}
+}
+
+
+
